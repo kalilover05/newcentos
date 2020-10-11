@@ -36,8 +36,11 @@ read -p "[${HOSTNAME}(config)]# " command
         "ntp synchronize")
                 bash ntpsync.sh
                 ;;
+        "clear")
+                bash clear.sh
+                ;;
         *)
-                echo "Invalid Command."
+                echo "${command}: command not found..."
                 ;;
         esac
 fi

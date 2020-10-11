@@ -6,6 +6,4 @@
 #                                           #
 #############################################
 
-
-# This script is used to restart the docker services
-#
+clear

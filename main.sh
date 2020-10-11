@@ -33,9 +33,12 @@ else
     "showntp")
         bash showntp.sh
         ;;
-    *)
-        echo "Invalid Command."
+    "clear")
+        bash clear.sh
         ;;
+    *)
+        echo "${command}: command not found..."
+                ;;
     esac
 fi
 done
